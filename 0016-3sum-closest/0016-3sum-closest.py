@@ -1,3 +1,6 @@
+# time complexity - o(n^2)
+# space complexity - o(1)
+
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         n = len(nums)
