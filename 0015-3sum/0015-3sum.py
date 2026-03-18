@@ -38,4 +38,5 @@ class Solution:
 
         return res
 
-
+# TIME COMPLEXITY- n^2
+# SPACE COMPLEXITY - 0(1)
