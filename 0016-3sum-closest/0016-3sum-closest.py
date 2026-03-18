@@ -4,7 +4,7 @@ class Solution:
         nums.sort()
         closest = float('inf')
         
-        for i in range(len(nums) - 2):
+        for i in range(n - 2):
             j = i + 1
             k = n - 1
 
