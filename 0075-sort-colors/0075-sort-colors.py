@@ -1,3 +1,7 @@
+# TIME COMPLEXITY = o(n)
+# SPACE COMPLEXITY = o(1)
+
+
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
