@@ -12,6 +12,9 @@ class Solution:
             while j < k:
                 result_sum = nums[i] + nums[j] + nums[k]
                 
+                # distance of current ans = abs(result_sum - target
+                # distance of best ans = abs(closest - target)
+                # abs = convert neg to pos
                 if abs(result_sum - target) < abs(closest - target):
                     closest = result_sum
 
