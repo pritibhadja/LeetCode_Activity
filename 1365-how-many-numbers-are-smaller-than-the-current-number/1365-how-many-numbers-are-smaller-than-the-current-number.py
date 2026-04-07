@@ -4,7 +4,7 @@ class Solution:
         for i in nums:
             c = 0
             for j in nums:
-                if j < i:
+                if j < i and j != i:
                     c += 1
             ans.append(c)
         return ans
