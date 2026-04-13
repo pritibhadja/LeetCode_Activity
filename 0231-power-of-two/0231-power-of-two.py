@@ -7,7 +7,7 @@ class Solution:
         while n % 2 == 0: # Even number
             n //= 2 # Divisible by 2
         
-        return True
+        return n == 1
        
 
         
