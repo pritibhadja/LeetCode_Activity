@@ -1,3 +1,4 @@
+# Time Complexity - o(nlogn)
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if n <= 0:
