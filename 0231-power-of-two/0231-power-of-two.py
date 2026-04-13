@@ -4,10 +4,10 @@ class Solution:
         if n <= 0:
             return False
         
-        while n % 2 == 0:
-            n //= 2
+        while n % 2 == 0: # Even number
+            n //= 2 # Divisible by 2
         
-        return n == 1
+        return True
        
 
         
